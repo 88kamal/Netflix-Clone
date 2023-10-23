@@ -15,7 +15,7 @@ export default function SignIn() {
                             <h2 className=' text-3xl font-bold mb-7'>Sign In</h2>
                             <div className=" mb-7">
                                 <input
-                                    type="text"
+                                    type="email"
                                     placeholder='Email or phone number'
                                     className='w-full px-3 py-3 rounded-md bg-[#333333] outline-none '
                                 />
@@ -23,13 +23,14 @@ export default function SignIn() {
 
                             <div className=" mb-7">
                                 <input
-                                    type="text"
+                                    type="password"
                                     placeholder='Password'
                                     className='w-full px-3 py-3 rounded-md bg-[#333333] outline-none '
                                 />
                             </div>
                             <div className="flex justify-center mb-2">
-                                <button className='bg-[#e50815] w-full py-3 rounded-md '>
+                                <button 
+                                className='bg-[#e50815] w-full py-3 rounded-md '>
                                     Signin
                                 </button>
                             </div>
